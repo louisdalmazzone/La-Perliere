@@ -1,0 +1,39 @@
+.list-inline{
+	list-style: none;
+	padding: 100px 0px;
+	width: 1000px;
+	margin: auto;
+}
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+.list-inline i{
+	font-size: 70px;
+	color: #35A6FF;
+	margin-left: 150px;
+}
+.list-inline i:hover {
+	color: #FF6FEA;
+
+}
+.list-inline h1{
+	margin-left: 400px;
+}
+@media (max-width: 960px) {
+	.list-inline {
+		width: 700px;
+	}
+}
+
+@media (max-width:  720px) {
+	.list-inline{
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.list-inline{
+		width: 300px;
+	}
+}
